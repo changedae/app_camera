@@ -30,5 +30,5 @@ for fname in fileList:
     with open(os.path.join(imgPath,fname),"rb") as file:
         btn=st.download_button(label="download img",
                                data=file,
-                               file_name=,
+                               file_name=fname,
                                mime="image/png")
