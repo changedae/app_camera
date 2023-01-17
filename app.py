@@ -23,4 +23,5 @@ if pic is not None:
         f.write(pic.getbuffer())
 
 fileList = os.listdir(imgPath)
+
 st.write(fileList)
